@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: fb2f8d96e0571422a8af80f9fbe305f3
+timeCreated: 1494300997
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Hip1
+    100002: LeftLeg
+    100004: LeftUpLeg
+    100006: MaleNTpye
+    100008: //RootNode
+    100010: Pants
+    100012: RightLeg
+    100014: RightUpLeg
+    400000: Hip1
+    400002: LeftLeg
+    400004: LeftUpLeg
+    400006: MaleNTpye
+    400008: //RootNode
+    400010: Pants
+    400012: RightLeg
+    400014: RightUpLeg
+    4300000: Pants
+    7400000: MPIdle
+    7400002: MPWalk
+    7400004: MPFall
+    9500000: //RootNode
+    13700000: Pants
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MPIdle
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip1
+        weight: 1
+      - path: Hip1/LeftUpLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hip1/RightUpLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg
+        weight: 1
+      - path: MaleNTpye
+        weight: 1
+      - path: MaleNTpye/Pants
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MPWalk
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip1
+        weight: 1
+      - path: Hip1/LeftUpLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hip1/RightUpLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg
+        weight: 1
+      - path: MaleNTpye
+        weight: 1
+      - path: MaleNTpye/Pants
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MPFall
+      takeName: Take 001
+      firstFrame: 93
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip1
+        weight: 1
+      - path: Hip1/LeftUpLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hip1/RightUpLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg
+        weight: 1
+      - path: MaleNTpye
+        weight: 1
+      - path: MaleNTpye/Pants
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

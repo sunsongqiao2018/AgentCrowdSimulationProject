@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 796bc1aa09ced423288d1aad6069ba24
+timeCreated: 1494300996
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Hip1
+    100002: LeftArm
+    100004: LeftFoot
+    100006: LeftForearm
+    100008: LeftLeg
+    100010: LeftShoulder
+    100012: LeftUpLeg
+    100014: LFootToe
+    100016: MaleNTpye
+    100018: MRleg
+    100020: //RootNode
+    100022: RFootToe
+    100024: RightArm
+    100026: RightFoot
+    100028: RightForearm
+    100030: RightLeg
+    100032: RightShoulder
+    100034: RightUpLeg
+    100036: Spine
+    100038: waist
+    400000: Hip1
+    400002: LeftArm
+    400004: LeftFoot
+    400006: LeftForearm
+    400008: LeftLeg
+    400010: LeftShoulder
+    400012: LeftUpLeg
+    400014: LFootToe
+    400016: MaleNTpye
+    400018: MRleg
+    400020: //RootNode
+    400022: RFootToe
+    400024: RightArm
+    400026: RightFoot
+    400028: RightForearm
+    400030: RightLeg
+    400032: RightShoulder
+    400034: RightUpLeg
+    400036: Spine
+    400038: waist
+    4300000: MRleg
+    7400000: MRLIdle
+    7400002: MRLWalk
+    7400004: MRLFall
+    9500000: //RootNode
+    13700000: MRleg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MRLIdle
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip1
+        weight: 1
+      - path: Hip1/LeftUpLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg/LeftFoot/LFootToe
+        weight: 1
+      - path: Hip1/RightUpLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg/RightFoot/RFootToe
+        weight: 1
+      - path: Hip1/waist
+        weight: 1
+      - path: Hip1/waist/Spine
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder/LeftArm/LeftForearm
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder/RightArm
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder/RightArm/RightForearm
+        weight: 1
+      - path: MaleNTpye
+        weight: 1
+      - path: MaleNTpye/MRleg
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MRLWalk
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip1
+        weight: 1
+      - path: Hip1/LeftUpLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg/LeftFoot/LFootToe
+        weight: 1
+      - path: Hip1/RightUpLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg/RightFoot/RFootToe
+        weight: 1
+      - path: Hip1/waist
+        weight: 1
+      - path: Hip1/waist/Spine
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder/LeftArm/LeftForearm
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder/RightArm
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder/RightArm/RightForearm
+        weight: 1
+      - path: MaleNTpye
+        weight: 1
+      - path: MaleNTpye/MRleg
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MRLFall
+      takeName: Take 001
+      firstFrame: 92
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hip1
+        weight: 1
+      - path: Hip1/LeftUpLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hip1/LeftUpLeg/LeftLeg/LeftFoot/LFootToe
+        weight: 1
+      - path: Hip1/RightUpLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hip1/RightUpLeg/RightLeg/RightFoot/RFootToe
+        weight: 1
+      - path: Hip1/waist
+        weight: 1
+      - path: Hip1/waist/Spine
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hip1/waist/Spine/LeftShoulder/LeftArm/LeftForearm
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder/RightArm
+        weight: 1
+      - path: Hip1/waist/Spine/RightShoulder/RightArm/RightForearm
+        weight: 1
+      - path: MaleNTpye
+        weight: 1
+      - path: MaleNTpye/MRleg
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
